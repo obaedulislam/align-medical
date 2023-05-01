@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(to right,
+                #E0F2FE 55%,
+                rgba(66, 159, 221, 0.8) 35%)
+         
+}
+
+
+/** ===| Coming Soon page css start |=== **/
+.coming-soon-page .site-logo img{
+    width: 222px;
+}
+.left-side-content{
+    margin: 44px 0;
+}
+.left-side-content .social-link{
+    margin-top: 188px;
+}
+.left-side-content .social-link ul li{
+    margin-bottom: 24px;
+}
+.left-side-content .social-link ul li a img{
+    width: 24px;
+    height: 24px;
+}
+.left-side-content .horizontal-border1{
+    height: 121px;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.25);
+    margin-left: 11px;
+
+}
+.left-side-content .follow-text{
+    position: relative;
+}
+.left-side-content .follow-text p{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -25px;
+    top: 45px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.7);
+}
+.left-side-content .triangle-img img{
+    width: 450px;
+    margin-top: 230px;
+    margin-left: 74px;
+}
+/** ===| Coming Soon page css end |=== **/
