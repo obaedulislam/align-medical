@@ -16,13 +16,17 @@ body{
 
 /** ===| Coming Soon page css start |=== **/
 .coming-soon-page .site-logo img{
-    width: 222px;
+    width: 215px;
 }
 .left-side-content{
-    margin: 44px 0;
+    height: full;
+}
+.left-side-content .logo-socialLogo{
+    padding-top: 44px;
+    padding-bottom: 115px;
 }
 .left-side-content .social-link{
-    margin-top: 188px;
+    margin-top: 220px;
 }
 .left-side-content .social-link ul li{
     margin-bottom: 24px;
@@ -33,8 +37,8 @@ body{
 }
 .left-side-content .horizontal-border1{
     height: 121px;
-    width: 1px;
-    background-color: rgba(0, 0, 0, 0.25);
+    width: .5px;
+    background-color: rgba(0, 0, 0, 0.1);
     margin-left: 11px;
 
 }
@@ -55,9 +59,75 @@ body{
     text-transform: capitalize;
     color: rgba(0, 0, 0, 0.7);
 }
-.left-side-content .triangle-img img{
-    width: 450px;
-    margin-top: 230px;
-    margin-left: 74px;
+.left-side-content .triangle-left-border{
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    height: full;
+}
+.left-side-content .triangle-middle-border {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    top: 200px;
+    left: -40%;
+    height: calc(100% - 200px);
+    width: .5px;
+    
+}
+.left-side-content .triangle-content{
+    background-image: url(../images/triangles.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 480px;
+    margin-top: 100%;
+    padding-top: 115px;
+    margin-right: -70px;
+
+}
+.left-side-content .triangle-content h1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 42px;
+    text-transform: capitalize;
+    margin-left: 45px;
+    color: #ffffff;
+}
+.left-side-content .triangle-content p {
+    font-size: 19px;
+    margin-left: 45px;
+    color: #ffffff;
+}
+
+.coming-soon-page .doctor-img{
+    padding: 80px 0;
+}
+.coming-soon-page .doctor-img .img-content{
+    position: relative;
+    text-align: center;
+}
+.coming-soon-page .doctor-img .square-img1{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+.coming-soon-page .doctor-img .square-img2{
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+}
+.coming-soon-page .doctor-img .square-img1 img{
+    width: 148px;
+    height: 160px;
+}
+.coming-soon-page .doctor-img .square-img2 img{
+    width: 148px;
+    height: 160px;
+}
+.coming-soon-page .doctor-img img{
+    width: 100%;
+    opacity: 1;
 }
 /** ===| Coming Soon page css end |=== **/
